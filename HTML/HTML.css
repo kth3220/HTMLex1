@@ -1,0 +1,44 @@
+
+
+.header{
+    background-color: pink;
+    height: 50px;
+}
+
+.R_main{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    width: 200px;
+}
+
+.nav{
+    background-color: greenyellow;
+    height: 90px;
+}
+
+.article{
+    background-color:plum ;
+    height: 60px;
+}
+
+.aside{
+    background-color: yellow;
+    height: 130px;
+}
+
+.mini_main1 .mini_main2{
+    display: flex;
+    align-items: flex-start;
+    width: 100px;
+}
+
+.section{
+    background-color: skyblue;
+    height: 60px;
+}
+
+.footer{
+    background-color: orangered;
+    height: 40px;
+}
