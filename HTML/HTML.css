@@ -1,44 +1,61 @@
-
-
-.header{
+/*색상과 높이주기*/
+header{
     background-color: pink;
     height: 50px;
 }
 
-.R_main{
-    display: flex;
-    align-items: flex-end;
-    flex-direction: column;
-    width: 200px;
-}
-
-.nav{
+nav{
     background-color: greenyellow;
-    height: 90px;
+    height: 40%;
 }
 
-.article{
+article{
     background-color:plum ;
-    height: 60px;
+    height: 30%;
 }
 
-.aside{
+aside{
     background-color: yellow;
-    height: 130px;
+    height: 50%;
 }
 
-.mini_main1 .mini_main2{
-    display: flex;
-    align-items: flex-start;
-    width: 100px;
-}
-
-.section{
+section{
     background-color: skyblue;
-    height: 60px;
+    flex: 1;
 }
 
-.footer{
+footer{
     background-color: orangered;
-    height: 40px;
+    height: 50px;
+    
 }
+
+/*위치에 FLEX박스 주기*/
+.flexbox {
+    display: flex;
+    flex: 1;
+}
+
+
+
+.main {
+    display: flex;
+    flex-direction: column;
+    flex: 8;
+    justify-content: flex-start; /* 주축 방향(수직 방향)에서 아이템을 시작 위치로 정렬 */
+}
+
+.side {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    justify-content: flex-end; /* 주축 방향(수직 방향)에서 아이템을 끝 위치로 정렬 */
+
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
